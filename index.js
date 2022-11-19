@@ -25,6 +25,5 @@ app.use("/students", studentRouter);
 
 app.listen(PORT, () => {
   console.log(`Api is running in ${NODE_ENV} mode.`);
-  console.log(`Alterei a mensagem`);
   console.log(`On port ${PORT}`);
 });
